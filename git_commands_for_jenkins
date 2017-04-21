@@ -5,3 +5,13 @@ git clone https://ilemobayo:ilemobayo0116@github.com/ilemobayo/tsetJenkins.git
 git pull https://ilemobayo:ilemobayo0116@github.com/ilemobayo/tsetJenkins.git
 git remote add origin https://ilemobayo:ilemobayo0116@github.com/ilemobayo/tsetJenkins.git
 git push https://ilemobayo:ilemobayo0116@github.com/ilemobayo/tsetJenkins.git
+
+
+
+echo %JAVA_HOME%
+git init
+git add .
+git commit -m "new commit"
+git pull https://ilemobayo:ilemobayo0116@github.com/ilemobayo/tsetJenkins.git
+git remote add origin https://ilemobayo:ilemobayo0116@github.com/ilemobayo/tsetJenkins.git
+git push origin master
